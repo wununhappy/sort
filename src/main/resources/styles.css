@@ -1,0 +1,31 @@
+/* styles.css */
+
+
+.border-pane {
+    -fx-background-color: #0078d7;
+    -fx-border-color: #ccc; /* 下边框颜色 */
+    -fx-border-width: 0 0 2 0; /* 下边框宽度 */
+}
+.sider-pane{
+    -fx-background-color: #0078d7; /* 侧边栏背景色*/
+}
+/* 按钮悬浮时的样式 */
+.button:hover {
+    -fx-background-color: derive(#0078d7, -20%); /* 相对基准色变暗 20% */
+}
+.button:pressed {
+    -fx-background-color: derive(#0078d7, -40%); /* 相对基准色变暗 40% */
+}
+.button{
+    -fx-background-color: #0078d7;
+    -fx-border-color: #ccc;
+    -fx-border-width: 0 0 2 0; /* 下边框宽度 */
+    -fx-padding: 0; /* 可以根据需要调整内边距 */
+}
+.combo-box {
+    -fx-font-size: 18px; /* 调整整个 ComboBox 的字体大小 */
+}
+
+.combo-box-popup > .list-view {
+    -fx-font-size: 18px; /* 调整下拉列表的字体大小 */
+}
